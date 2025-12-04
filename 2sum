@@ -1,0 +1,9 @@
+a = [1,2,3,4,5,6,7,8,9]
+targetSum = 13
+
+for i in range(len(a)):
+    for j in range(i+1):
+        sum = a[i]+a[j]
+        if sum == targetSum:
+            print(a[i],a[j])
+    
